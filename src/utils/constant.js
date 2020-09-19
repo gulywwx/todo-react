@@ -1,0 +1,18 @@
+export const SUCCESS = 200;
+export const ERROR = 500;
+export const INVALID_PARAMS = 400;
+
+export const ERROR_EXIST_TAG = 10001;
+export const ERROR_NOT_EXIST_TAG = 10002;
+export const ERROR_NOT_EXIST_ARTICLE = 10003;
+
+export const ERROR_AUTH_CHECK_TOKEN_FAIL = 20001;
+export const ERROR_AUTH_CHECK_TOKEN_TIMEOUT = 20002;
+export const ERROR_AUTH_TOKEN = 20003;
+export const ERROR_AUTH = 20004;
+export const ERROR_EXIST_AUTH = 20005;
+export const ERROR_AUTH_PASSWORD = 20006;
+
+export const ERROR_UPLOAD_SAVE_IMAGE_FAIL = 30001;
+export const ERROR_UPLOAD_CHECK_IMAGE_FAIL = 30002;
+export const ERROR_UPLOAD_CHECK_IMAGE_FORMAT = 3000;
